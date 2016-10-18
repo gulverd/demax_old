@@ -1,0 +1,370 @@
+@font-face{
+	font-family: bpg_mrgvlovani_caps_2010;
+	src: url(fonts/bpg_mrgvlovani_caps_2010.ttf);
+}
+@font-face{
+	font-family: bpg_nino_mtavruli_normal;
+	src: url(fonts/bpg_nino_mtavruli_normal.ttf);
+}
+body{
+	width: 100%;
+	background-color: #f1f1f2;
+}
+header{
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 350;
+}
+.nav{
+	border-radius: 0;
+	position: relative;
+    z-index: 350;
+    width: 100%;
+    min-width: 980px;
+    height: 91px;
+    border-bottom: 2px solid rgba(239,239,239,1);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    background-color: white;
+}
+.logo_wrp{
+	float: left;
+	padding: 0 40px;
+	padding-top: 10px;
+	width: 7%;
+}
+#logo{
+	width: 75px;
+}
+.menu_wrp{
+	float: left;
+	padding-top: 32px;
+	text-align: center;
+	width: 80%;
+}
+.menu_wrp ul li{
+	display: inline;
+	margin-right: 20px;
+}
+.menu_wrp ul li a{
+	display: inline;
+	font-family: bpg_mrgvlovani_caps_2010;
+	color: #2e2e2e;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu_wrp ul li a:hover{
+	text-decoration:underline;
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+	background-color: white;
+}
+.dropdown-menu{
+	font-size: 13px;
+	border-radius: 0;
+}
+.dropdown-menu>li>a:hover{
+	background-color: white;
+}
+.social_wrp{
+	float: left;
+	padding-top: 25px;
+	padding-right: 20px;
+	text-align: right;
+	width: 10%;
+}
+.social_wrp ul li{
+	display: inline;
+	margin-left: 2px;
+}
+.social_wrp ul li a{
+	display: inline;
+	font-size: 25px;
+	color:#929292;
+}
+.fa-facebook-official:hover{
+	color: #3b5998;
+}
+.fa-youtube:hover{
+	color:#e52d27;
+}
+.slideshow_wrp{
+	margin-top: 91px;
+}
+#slide_image{
+	width: 100%;
+	height: 500px;
+}
+.projects_wrp{
+	margin-top: 10px;
+}
+.projects_title_wrp{
+	padding: 0;
+}
+.projects_title_wrp h4{
+	font-family: bpg_nino_mtavruli_normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-left: 4px solid #d320f4;
+    padding-left: 15px;
+    float: left;
+}
+.projects_title_wrp span{
+	float: right;
+}
+.projects_title_wrp span h5{
+	font-family: bpg_nino_mtavruli_normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-right: 4px solid #d320f4;
+    padding-right: 15px;
+}
+.projects_title_wrp span h5 a{
+	color:#222;
+	text-decoration: underline;
+}
+.projects_in_box{
+	padding: 0;
+}
+.projects_grd_wrp{
+	padding: 0;
+	padding-right: 10px;
+}
+.projects_box_wrp{
+	background-color: white;
+	padding: 8px;
+}
+#project_box_img{
+	width: 100%;
+	max-height: 229px;
+}
+.info{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 94.3%;
+    height: 70px;
+    margin: 8px;
+    background:url(img/project_shadow.png) repeat-x bottom left transparent;
+}
+.info span{
+	color:white;
+	margin-left: 10px;
+	text-shadow: 0 1px #444444;
+	position: absolute;
+    bottom: 6px;
+    right: 6px;
+    font-family: bpg_nino_mtavruli_normal;
+}
+.footer{
+	background-color: white;
+	border-top:2px solid rgba(239,239,239,1);
+	height: 60px;
+	bottom: 0;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 17px;
+}
+.footer_span{
+	font-family: bpg_mrgvlovani_caps_2010;
+	font-size: 13px;
+}
+.about_wrp{
+	margin-top: 100px;
+}
+.about_text_wrapper{
+	padding-top: 10px;
+}
+.about_text_wrapper p{
+	font-family: bpg_mrgvlovani_caps_2010;
+	color:black;
+	font-size: 16px;
+	padding: 5px;
+	line-height: 1.5;
+	text-shadow: 0 1px #eeeeee;
+}
+.partners_wrp{
+	margin-top: 100px;
+}
+#partners_img{
+	width: 100%;
+	height: 200px;
+	max-height: 200px;
+	border: 1px solid #eeeeee;
+}
+.partners_box{
+	padding: 2;
+}
+.partnersa{
+	padding: 3px;
+	background-color: #c5c5c5;
+}
+.partners_img_wrp{
+	padding: 0;
+	background-color: white;
+}
+.emps_wrp{
+	padding:0;
+}
+.emp_box_in{
+	padding: 8px;
+}
+.emp_img_wrp{
+	padding: 0;
+}
+#emp_img{
+	width: 100%;
+	max-height: 220px;
+	border-radius: 200px;
+}
+.emp_name_wrp{
+	text-align: center;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.emp_name_wrp span{
+	color:#272727;
+	font-size: 18px;
+	font-family: bpg_nino_mtavruli_normal;
+}
+.emp_position_wrp{
+	text-align: center;
+	padding: 0;
+}
+.emp_position_wrp span{
+	color:#272727;
+	font-size: 15px;
+	font-family: bpg_nino_mtavruli_normal;
+}
+.contact_wrp{
+	padding: 0;
+	padding-top: 20px;
+}
+.contact_info_wrp{
+	padding: 0;
+}
+.contact_info_wrp span{
+	font-family: bpg_nino_mtavruli_normal;
+	font-size: 17px;
+
+}
+.map_wrp{
+	padding: 0;
+	margin-top: 20px;
+}
+#map{
+	width: 100%;
+}
+
+#project_box_img_fn{
+	width: 100%;
+	height: 400px;
+}
+.projects_grd_wrp_fn{
+	padding: 0;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+.info_fn{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 97%;
+    height: 70px;
+    margin: 8px;
+    background:url(img/project_shadow.png) repeat-x bottom left transparent;
+}
+.info_fn span{
+	color:white;
+	margin-left: 10px;
+	text-shadow: 0 1px #444444;
+	position: absolute;
+    bottom: 6px;
+    right: 6px;
+    font-family: bpg_nino_mtavruli_normal;
+}
+.drop li{
+	height: 50px;
+}
+.pro_hovi{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 97%;
+    margin: 5px;
+    height: 97%;
+    background-color: gainsboro;
+    padding: 84px;
+    padding-left: 107px;
+    opacity: 0.6;
+    display: none;
+}
+.pro_hovi span{
+	font-size: 73px;
+    color: black;
+}
+.partner_hovi{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    padding: 84px;
+    padding-left: 150px;
+    padding-top: 70px;
+    opacity: 0.6;
+    display: none;
+}
+.partner_hovi span{
+	font-size: 73px;
+    color: black;
+}
+.fn_hovi{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    padding: 84px;
+    padding-left: 241px;
+    padding-top: 156px;
+    opacity: 0.6;
+    display: none;
+}
+.fn_hovi span{
+	font-size: 73px;
+    color: black;
+}
+.project_in_wrpsa{
+	margin-top: 100px;
+}
+.project_in_title{
+	padding:0;
+}
+.project_in_title h4{
+	font-size: 40px;
+    line-height: 64px;
+    text-transform: uppercase;
+    float: left;
+    margin-bottom: 30px;
+    text-align: left;
+    width: 100%;
+    color: #000;
+    font-weight: 100;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: bpg_nino_mtavruli_normal;
+}
+#project_in_img{
+	width: 100%;
+}
